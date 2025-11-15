@@ -28,7 +28,7 @@ const App = () => {
                   let copy = [...arr]
                   copy[index].age = e.target.value
                   setArr(copy)
-                }} placeholder="Age" age="age"/>
+                }} placeholder="Age" name="age"/>
 
                 <button onClick={()=>{
                   let newArr = arr.filter((item,idx) => {
